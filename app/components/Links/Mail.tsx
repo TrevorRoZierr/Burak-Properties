@@ -6,7 +6,8 @@ const Mail = (props: Props) => {
   return (
     <Link
       href="#contactMe"
-      className="font-medium text-md sm:text-xl"
+      className="font-medium text-xs sm:text-lg"
+      onClick={() => alert("Contact clicked")}
     >
       Contact
     </Link>
